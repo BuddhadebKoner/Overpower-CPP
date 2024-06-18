@@ -1,0 +1,29 @@
+# Ignore output directories
+/output/
+**/output/
+**/**/output/
+
+# Executables
+*.exe
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains CLion
+.idea/
+
+
+# Ignore build artifacts
+*.o
+*.out
+*.obj
+*.a
+*.so
+
+# Ignore generated files
+*.dSYM/
+*.dylib
+*.dll
+
+# Ignore editor backup files
+*~
