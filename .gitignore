@@ -12,13 +12,17 @@
 # JetBrains CLion
 .idea/
 
-
 # Ignore build artifacts
 *.o
 *.out
 *.obj
 *.a
 *.so
+*.app
+*.exe
+*.bin
+*.run
+*.script
 
 # Ignore generated files
 *.dSYM/

@@ -1,22 +1,35 @@
-# C++ Project
+# C++ Compilation and Execution
 
-## Description
-This repository contains a C++ project that [provide a brief description of your project].
+## Compilation
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+### g++
 
-## Installation
-[Explain how to install and set up the project. Include any dependencies or requirements.]
+```bash
+g++ Hello_World.cpp -o helloworld.exe
+```
 
-## Usage
-[Provide instructions on how to use the project. Include examples or code snippets if necessary.]
+Compiles Hello_World.cpp into helloworld.
 
-## Contributing
-[Explain how others can contribute to the project. Include guidelines for submitting pull requests or reporting issues.]
+### gcc (C++)
 
-## License
-[Specify the license under which the project is distributed.]
+```bash
+gcc -x c++ Hello_World.cpp -o helloworld.out
+```
+
+Compiles Hello_World.cpp as C++ code using gcc.
+
+### clang++
+```bash
+clang++ Hello_World.cpp -o helloworld.out
+```
+Compiles Hello_World.cpp into helloworld using clang++.
+
+## Execution
+```al
+./helloworld.out
+./helloworld.bin
+./helloworld.run
+./helloworld.exe
+./helloworld.app
+./helloworld.script
+```
