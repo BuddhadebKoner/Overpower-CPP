@@ -10,7 +10,6 @@
 .vscode/
 
 # JetBrains CLion
-Error_handeling
 .idea/
 
 # Ignore build artifacts
