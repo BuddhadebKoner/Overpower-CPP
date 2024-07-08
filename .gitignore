@@ -12,6 +12,9 @@
 # JetBrains CLion
 .idea/
 
+#Ignore all header files
+*.h
+
 # Ignore build artifacts
 *.o
 *.out
