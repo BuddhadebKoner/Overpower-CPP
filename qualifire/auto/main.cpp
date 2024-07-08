@@ -21,7 +21,6 @@ int main()
     cout << "Another Api Value is " << data2 << endl;
 
 
-
     if (typeid(data) == typeid(string))
     {
         puts("Data is string");
