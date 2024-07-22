@@ -15,14 +15,13 @@ public:
    // ~Phone();                                    // destracture
 };
 
-Phone::Phone(): _name(), _os(), _price() {
+Phone::Phone(): _name(), _os("android"), _price() {
    puts("Default constracture called");
 }
 
 int main()
 {
    Phone samsung;
-
 
    return 0;
 }
