@@ -1,0 +1,3 @@
+// 2. Library System
+//    Scenario In a library management system, you have a Book class with properties such as title, author, and ISBN. You want to ensure that the ISBN is only set by the library system when a new book is added, but it should be visible to library staff when displaying book details.
+//    Question: What access modifiers would you use to control the visibility and modification of the ISBN property in the Book class?
