@@ -8,12 +8,13 @@ class Rectangle
    int height = 0;
 
 public:
+   //   Parameterized constructor
    Rectangle(int w, int h)
    {
       width = w;
       height = h;
    }
-   void Display()
+   void Display() // Method to display the width and height of the rectangle
    {
       cout << " Width: " << width << " Height: " << height << endl;
    }
@@ -21,10 +22,10 @@ public:
 
 int main()
 {
-   Rectangle reac1(10, 5);
+   Rectangle reac1(10, 5); // Creating an object of the Rectangle class 
    Rectangle reac2(12, 8);
 
-   reac1.Display();
+   reac1.Display(); 
    reac2.Display();
 
    return 0;
